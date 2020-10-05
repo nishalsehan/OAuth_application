@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 
 class HomeController extends Controller
@@ -81,5 +82,14 @@ class HomeController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function logout(){
+        Session()->regenerate();
+        Session::put('login_status', false);
+
+        Session::forget('login_status');
+
+        return redirect()->to('/');
     }
 }

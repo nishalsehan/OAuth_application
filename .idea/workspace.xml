@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b55c12e9-60c9-4870-89a5-d0d5479a7992" name="Default Changelist" comment="" />
+    <list default="true" id="b55c12e9-60c9-4870-89a5-d0d5479a7992" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/credentials.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DriveController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DriveController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +27,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -148,7 +161,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -159,13 +172,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SLIIT projects\oAuth_application\public\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SLIIT projects\oAuth_application\public" />
       <recent name="D:\SLIIT projects\oAuth_application\resources\img" />
       <recent name="D:\SLIIT projects\oAuth_application" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SLIIT projects\oAuth_application\public" />
+      <recent name="D:\SLIIT projects\oAuth_application\public\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -183,7 +197,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601580565524</updated>
       <workItem from="1601580571863" duration="556000" />
-      <workItem from="1601581209557" duration="13760000" />
+      <workItem from="1601581209557" duration="15764000" />
+      <workItem from="1602052497621" duration="11781000" />
     </task>
     <servers />
   </component>
@@ -191,6 +206,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602028981882">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602028981882" />
     <state x="459" y="276" width="447" height="265" key="ComposerInitDialogKey" timestamp="1602014584613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -199,10 +218,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1602027271045" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1602027509973">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1602068782140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602027509973" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602068782140" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602026678823">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

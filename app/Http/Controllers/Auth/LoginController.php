@@ -51,8 +51,6 @@ class LoginController extends Controller
     public function handleProviderGoogleCallback()
     {
         $auth_user = Socialite::driver('google')->user();
-//        $user = User::updateOrCreate(['email' => $auth_user->email], ['refresh_token' => $auth_user->token, 'name' => $auth_user->name]);
-//        dd(Auth::check());
         session()->regenerate();
         Session::put('login_status', true);
         Session::put('name', $auth_user->name);
@@ -60,6 +58,7 @@ class LoginController extends Controller
         Session::put('token', $auth_user->token);
         Session::put('id', $auth_user->id);
         Session::put('image', $auth_user->avatar);
+
         return redirect(route('home.index')); // Redirect to a secure page
     }
 }

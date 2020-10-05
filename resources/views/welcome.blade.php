@@ -1,6 +1,15 @@
 @extends('layouts.app')
 
 @section('content')
+    <?php
+        Session()->regenerate(); ?>
+    @if(\Illuminate\Support\Facades\Session::has('login_status'))
+        <script type="text/javascript">
+           window.location = "/home";
+        </script>
+    @else
+
+    @endif
     <div class="content-wrapper">
         <div class="container">
             <div class="row">

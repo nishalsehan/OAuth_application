@@ -27,9 +27,17 @@
         <!-- As a heading -->
         <nav class="navbar navbar-light bg-light justify-content-between">
             <a class="navbar-brand">Share with Drive</a>
-            <a class="form-inline" href="{{route('google.login')}}">
-                Login
-            </a>
+
+            @if(Session::has('login_status'))
+                <a class="form-inline" href="{{route('logout')}}">
+                    Logout
+                </a>
+            @else
+                <a class="form-inline" href="{{route('google.login')}}">
+                    Login
+                </a>
+            @endif
+
         </nav>
 
         <main class="py-4">

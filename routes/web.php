@@ -20,9 +20,14 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::resource('home', 'App\Http\Controllers\HomeController');
+
+//Route::get('/home', 'App\Http\Controllers\HomeController@index')->name('home');
+Route::get('/logout', 'App\Http\Controllers\HomeController@logout')->name('logout');
 
 Route::get('/login/google', 'App\Http\Controllers\Auth\LoginController@redirectToGoogleProvider')->name('google.login');
 
 Route::get('login/google/callback', 'App\Http\Controllers\Auth\LoginController@handleProviderGoogleCallback');
+
+Route::resource('home', 'App\Http\Controllers\HomeController');
+Route::post('/upload_file', 'App\Http\Controllers\DriveController@uploadFile')->name('upload_file');
 
