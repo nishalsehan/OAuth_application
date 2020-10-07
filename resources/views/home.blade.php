@@ -18,13 +18,9 @@
                         </div>
                     </div>
                     <div class="card">
-
-
                         <div class="card-body">
                             <div class="tab-content">
-
                                 <table>
-
                                     <tr>
                                         <td height="50"><b>User ID:</b></td>
                                         <td>{{\Illuminate\Support\Facades\Session::get('id')}}</td>
@@ -49,7 +45,7 @@
                         <div class="card-header">
                             <h3 class="card-title"><b>Google Driver Upload</b></h3>
                         </div>
-
+                        {{--File upload form--}}
                         <div class="card-body">
                             <form method="POST" action="{{ route('upload_file') }}" enctype="multipart/form-data">
                                 {{ csrf_field() }}
@@ -101,7 +97,6 @@
                                     </div>
                                 </div>
                             </form>
-
                         </div>
                     </div>
                 </div>

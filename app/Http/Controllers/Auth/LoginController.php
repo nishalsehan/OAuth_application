@@ -44,6 +44,7 @@ class LoginController extends Controller
 
     public function redirectToGoogleProvider()
     {
+        //fetch the access token from google
         $parameters = ['access_type' => 'offline'];
         return Socialite::driver('google')->scopes(["https://www.googleapis.com/auth/drive"])->with($parameters)->redirect();
     }
@@ -52,6 +53,7 @@ class LoginController extends Controller
     {
         $auth_user = Socialite::driver('google')->user();
         session()->regenerate();
+        //store the credentials in a session
         Session::put('login_status', true);
         Session::put('name', $auth_user->name);
         Session::put('email', $auth_user->email);

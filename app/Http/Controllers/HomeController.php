@@ -87,7 +87,7 @@ class HomeController extends Controller
     public function logout(){
         Session()->regenerate();
         Session::put('login_status', false);
-
+        //remove the session object
         Session::forget('login_status');
 
         return redirect()->to('/');
