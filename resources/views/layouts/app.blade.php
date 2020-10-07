@@ -33,8 +33,8 @@
                     Logout
                 </a>
             @else
-                <a class="form-inline" href="{{route('google.login')}}">
-                    Login
+                <a class="form-inline" href="{{route('google.login')}}" style="color: #f00;">
+                    <b>Sign in with Google</b>
                 </a>
             @endif
 
@@ -42,6 +42,7 @@
 
         <main class="py-4">
             @yield('content')
+            @include('sweetalert::alert')
         </main>
     </div>
 </body>

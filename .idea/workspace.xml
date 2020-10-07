@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b55c12e9-60c9-4870-89a5-d0d5479a7992" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/img/signin_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/oAuth_application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oAuth_application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DriveController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DriveController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +151,7 @@
       <path value="$PROJECT_DIR$/vendor/league/oauth1-client" />
       <path value="$PROJECT_DIR$/vendor/laravel/socialite" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/realrashid/sweet-alert" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iI1yORNjaP5gkNURz71LGyVyC0" />
@@ -153,7 +163,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -170,8 +180,8 @@
       <recent name="D:\SLIIT projects\oAuth_application" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SLIIT projects\oAuth_application\public" />
       <recent name="D:\SLIIT projects\oAuth_application\public\img" />
+      <recent name="D:\SLIIT projects\oAuth_application\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -190,7 +200,7 @@
       <updated>1601580565524</updated>
       <workItem from="1601580571863" duration="556000" />
       <workItem from="1601581209557" duration="15764000" />
-      <workItem from="1602052497621" duration="12743000" />
+      <workItem from="1602052497621" duration="17104000" />
     </task>
     <servers />
   </component>
@@ -210,10 +220,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1602027271045" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1602068782140">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1602072683281">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602068782140" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602072683281" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602026678823">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

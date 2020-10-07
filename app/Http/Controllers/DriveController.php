@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class DriveController extends Controller
 {
@@ -30,8 +31,13 @@ class DriveController extends Controller
         //Session::get('token') - tke the token from Session
         $client->setAccessToken(Session::get('token'));
 
-        $result = $this->add_file( asset('storage/files/'.$fNameToStore_file) , $fNameToStore_file, $this->newDirectory( $request->folder,$client ),$client);
+        $result = $this->add_file( asset('storage/files/'.$fNameToStore_file) , $fNameToStore_file, $request->description, $this->newDirectory( $request->folder,$client ),$client);
 
+        if($result){
+            Alert::success('Driver Upload', 'Successfully Uploaded');
+        }else{
+            Alert::error('Driver Upload', 'Something went wrong.');
+        }
         return redirect(route('home.index'));
     }
 
@@ -77,7 +83,7 @@ class DriveController extends Controller
         return $directories[0]['id'];
 
     }
-    function add_file( $fPath, $fName, $dire_id = null,$client ){
+    function add_file( $fPath, $fName, $description, $dire_id = null,$client ){
 
         $googleServiceDrive = new \Google_Service_Drive($client);
 
@@ -88,6 +94,7 @@ class DriveController extends Controller
         }
         $document->setName($fName);
 
+        $document->setDescription($description);
         $uploader = $googleServiceDrive->files->create($document, array(
             'data' => file_get_contents('storage/files/'.$fName),
             'mimeType' => 'application/octet-stream',

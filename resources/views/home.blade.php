@@ -66,6 +66,19 @@
                                         @enderror
                                     </div>
                                 </div>
+                                <div class="form-group row">
+                                    <div class="col-md-4">
+                                        <label><b>{{ __('Description') }}</b></label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <textarea id="folder" rows="4" class="form-control @error('description') is-invalid @enderror" name="description"  placeholder="Description">{{ old('description') }}</textarea>
+                                        @error('description')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                        @enderror
+                                    </div>
+                                </div>
                                 <div class="form-group row" >
                                     <div class="col-md-4">
                                         <label><b>{{ __('File to Upload') }}</b></label>
