@@ -1,4 +1,4 @@
-Please Fallowing the instructions to befor use this.
+Please Follow the instructions before use this.
 
 Open your project using Vs code or PhpStorm & run composer install command.
 
